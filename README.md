@@ -1,2 +1,2 @@
 # apredendo-htmlcss
-alguns pequenos projetos que fiz para praticar html e css
+alguns projetos que fiz para faculdade na materia de frontend
