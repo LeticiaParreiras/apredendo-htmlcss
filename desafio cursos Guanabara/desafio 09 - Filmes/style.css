@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(41, 41, 41);
+    color: rgb(238, 242, 246);
+    text-align: center;
+    
+}
+.posters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   padding-top: 10px;
+    display: center;
+    justify-content: center;
+    
+}
+.img img{
+    height: 400px; width: 267px;
+}
+.container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+.voltar{
+    margin-top: 15px;
+}
+
+.texto p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 830px) {
+    .img{
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 5px;
+       
+    }
+    .img img{
+        max-width: 200px;
+        height: 300px;
+    }
+    .container{
+        max-width:700px;
+        flex-wrap: wrap-reverse;
+    }
+    iframe{
+        width: 302px;
+        height: 170px;
+    }
+    .texto{
+        width: 300px;
+    }
+}
